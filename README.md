@@ -6,9 +6,15 @@ The main program is *pruef_auswert.py*. It requires as input the xls input files
 
     max_pts - maximum reachable points
     pmax    - points for 1.0
-    pmin    - points for 4.0
+    pmin    - points for 4.0 
 
-Here is an example: `./pruef_auswert.py file1.xls file2.xls 35 25 15`
+Here is an example:
+
+    `./pruef_auswert.py file1.xls file2.xls 35 25 15`
+
+The number of bins is another option. It can be controled with `-b BINS`. In the example below a histogram with 12 bins is used.
+
+    ./pruef_auswert.py file1.xls file2.xls 35 25 15 -b 12
 
 I have implemented also a very short manual that can be reached easily from the terminal:
 
