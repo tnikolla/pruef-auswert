@@ -2,7 +2,7 @@
 
 ## Usage
 
-The main program is pruef_auswert.py. It requires as input the xls input files and the points describing the Exam evaluation:
+The main program is *pruef_auswert.py*. It requires as input the xls input files and the points describing the Exam evaluation:
 
     max_pts - maximum reachable points
     pmax    - points for 1.0
@@ -16,6 +16,6 @@ I have implemented also a very short manual that can be reached easily from the 
 
 ## Dependencies
 
-Two packages that does not come with Ubuntu preinstalled are xlutils and xlrd. To install them:
+Two packages that does not come with Ubuntu preinstalled are *xlutils* and *xlrd*. To install them:
 
     pip install xlutils xlrd
